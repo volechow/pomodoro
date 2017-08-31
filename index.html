@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Clock</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row"> 
+      
+      <div class="col-xs-6">BREAK LENGTH
+        <div class="row">
+          <button class="col-xs-3" id="plus-break">+
+          </button>
+          <div class="col-xs-6" id="break">5
+          </div>
+          <button class="col-xs-3" id="minus-break">-
+          </button>
+        </div>
+      </div>
+      
+      <div class="col-xs-6">SESSION LENGTH
+        <div class="row">
+          <button class="col-xs-3" id="plus-session">+
+          </button>
+          <div class="col-xs-6" id="session">25
+          </div>
+          <button class="col-xs-3" id="minus-session">-
+          </button>
+        </div>
+      </div>
+
+      <div class="col-xs-6 col-xs-offset-3">TIMER <a id="status">session</a>
+        <div id="time">25</div>
+        <button id="start">START</button>
+        <button id="pause">PAUSE</button>
+        <button id="restart">RESTART</button>
+      </div>
+    
+    </div>
+  </div>  
+</body>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+
+</html>
